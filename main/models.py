@@ -16,7 +16,6 @@ class Talaba(models.Model):
     class Meta:
         verbose_name_plural = "Talabalar"
         unique_together = ('ism', 'guruh')
-        ordering = ['ism', 'guruh']
 
 
 class Muallif(models.Model):
